@@ -1,4 +1,6 @@
 from pafy import new
+from pathlib import Path
+
 
 while True:
     try:
@@ -24,6 +26,8 @@ while True:
 
 
             vd()
+            print('Successfully Downloaded')
+            
         elif choice3 == "2":
             def ad():
                 au_stream = video.audiostreams
@@ -47,6 +51,7 @@ while True:
 
 
             ad()
+            print('Successfully Downloaded')
 
         else:
             print("wrong choice")
